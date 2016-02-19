@@ -1,4 +1,4 @@
 # ci-hook-template
-Using Code Igniter Hooks feature to create a template engine
+Using Code Igniter's Hooks feature to create a template engine
 
 
