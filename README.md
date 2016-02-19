@@ -1,7 +1,4 @@
 # ci-hook-template
-Usando o recurso de Hooks para implantar templates no Code Igniter
+Using Code Igniter Hooks feature to create a template engine
 
-## 1) em application/config
-
-$config['enable_hooks'] = TRUE;
 
