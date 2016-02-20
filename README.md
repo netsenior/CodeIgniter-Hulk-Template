@@ -37,7 +37,7 @@ Upload the provided files to your project:
 In your Controller files customize the title as a global variable:
 
 ```php
-$this->title = 'Atas';
+$this->title = 'About Us';
 ```
 
 And load the content as view as usual, 
