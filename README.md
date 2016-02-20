@@ -4,7 +4,7 @@ Using Code Igniter's Hooks feature to create a template engine.
 
 Steps:
 
-### config/config.php
+### 1. config/config.php
 
 Enable system hooks
 
@@ -12,7 +12,7 @@ Enable system hooks
 $config['enable_hooks'] = TRUE;
 ```
 
-### config/hooks.php
+### 2. config/hooks.php
 
 Include the following on your config/hooks.php file
 
