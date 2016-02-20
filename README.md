@@ -32,9 +32,11 @@ Upload the provided files to your project:
 - application/hooks/HulkTemplate.php
 - application/views/template.php 
 
-### 4. Customize Controller files
+### 4. Customize files
 
-In your Controller files customize the title and load the content view. It will be inserted into your template file before the page is displayed to the user.
+- Customize your template in application/views/template.php file
+
+- Customize specific title and content for each page in its controller, see below:
 
 ```php
 $this->title = 'About Us';
@@ -42,3 +44,5 @@ $this->load->view('aboutus');
 ```
 
 ### Done!
+
+The content will be inserted into your template file before the page is displayed to the user.
