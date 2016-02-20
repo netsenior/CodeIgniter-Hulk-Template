@@ -45,4 +45,4 @@ $this->load->view('aboutus');
 
 ### Done!
 
-The content will be inserted into your template file before the page is displayed to the user.
+The title and content will be inserted into your template file before the page is displayed to the user.
