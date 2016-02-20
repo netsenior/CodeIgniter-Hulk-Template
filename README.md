@@ -32,5 +32,18 @@ Upload the provided files to your project:
 - application/hooks/HulkTemplate.php
 - application/views/template.php 
 
+### 4. Customize your Controller files
+
+In your Controller files customize the title as a global variable:
+
+```php
+$this->title = 'Atas';
+```
+
+And load the content as view as usual, 
+
+```php
+$this->load->view('aboutus');
+```
 
 ### Done!
