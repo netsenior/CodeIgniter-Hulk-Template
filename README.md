@@ -14,7 +14,7 @@ $config['enable_hooks'] = TRUE;
 
 ### 2. application/config/hooks.php
 
-Include the following on your application/config/hooks.php file:
+Include the following code snippet to your application/config/hooks.php file:
 
 ```php
 $hook['display_override'] = array(
