@@ -6,7 +6,7 @@ Steps:
 
 ### 1. config/config.php
 
-Enable system hooks
+Enable system hooks on your config/config.php file
 
 ```php
 $config['enable_hooks'] = TRUE;
@@ -24,3 +24,9 @@ $hook['display_override'] = array(
 		'filepath' => 'hooks'
 	);
 ```
+
+### 3. views/template.php
+
+Download, customize and upload the file template.php to your Views folder
+
+### Done!
