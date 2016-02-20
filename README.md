@@ -4,7 +4,7 @@ Using Code Igniter's Hooks feature to create a template engine.
 
 Steps:
 
-### 1. application/config/config.php
+### 1. Enable system hooks
 
 Enable system hooks on your application/config/config.php file.
 
@@ -12,9 +12,9 @@ Enable system hooks on your application/config/config.php file.
 $config['enable_hooks'] = TRUE;
 ```
 
-### 2. application/config/hooks.php
+### 2. Define a hook
 
-Include the following code snippet to your application/config/hooks.php file:
+Define a hook including the following code snippet to your application/config/hooks.php file:
 
 ```php
 $hook['display_override'] = array(
@@ -32,17 +32,12 @@ Upload the provided files to your project:
 - application/hooks/HulkTemplate.php
 - application/views/template.php 
 
-### 4. Customize your Controller files
+### 4. Customize Controller files
 
-In your Controller files customize the title as a global variable:
+In your Controller files customize the title and load the content view. It will be inserted into your template file before the page is displayed to the user.
 
 ```php
 $this->title = 'About Us';
-```
-
-And load the content as view as usual, 
-
-```php
 $this->load->view('aboutus');
 ```
 
