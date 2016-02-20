@@ -1,6 +1,6 @@
 # Codeigniter Hulk Template
 
-Using Code Igniter's Hooks feature to create a template engine.
+Using Code Igniter's Hooks feature to create a template engine. (CI 2.x)
 
 Steps:
 
