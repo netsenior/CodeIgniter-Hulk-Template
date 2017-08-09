@@ -12,7 +12,8 @@ class HulkTemplate{
         } else {
             $CI->layout = 'template.php';
         }
-        $layout = BASEPATH . '../application/views/' . $CI->layout;
+        //$layout = BASEPATH . '../application/views/' . $CI->layout; // CI 2
+        $layout = VIEWPATH . $CI->layout; // CI 3
         if ($CI->layout !== "template.php" && !file_exists($layout)) {
             show_error('Voce especificou um layout (' . $CI->layout . ') inexistente.');
         }
